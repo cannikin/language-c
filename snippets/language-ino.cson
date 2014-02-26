@@ -1,8 +1,8 @@
-'.source.c, .source.c\\+\\+, .source.objc, .source.objc\\+\\+':
+'.source.ino, .source.ino\\+\\+':
   '#ifndef … #define … #endif':
     'prefix': 'def'
     'body': '#ifndef ${1:SYMBOL}\n#define ${2:SYMBOL} ${3:value}\n#endif'
-'.source.c, .source.objc, .source.c\\+\\+, .source.objc\\+\\+':
+'.source.ino, .source.ino\\+\\+':
   '#include <>':
     'prefix': 'Inc'
     'body': '#include <${1:.h}>'
@@ -42,7 +42,7 @@
   'Struct':
     'prefix': 'st'
     'body': 'struct ${1:name_t}\n{\n\t${2:/* data */}\n};'
-'.source.c\\+\\+, .source.objc\\+\\+':
+'.source.ino\\+\\+':
   'Enumeration':
     'prefix': 'enum'
     'body': 'enum ${1:name} { $0 };'
