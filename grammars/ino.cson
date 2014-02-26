@@ -1,10 +1,8 @@
 'fileTypes': [
-  'c'
-  'h'
+  'ino'
 ]
-'firstLineMatch': '-[*]-( Mode:)? C -[*]-'
 'keyEquivalent': '^~C'
-'name': 'C'
+'name': 'INO'
 'patterns': [
   {
     'include': '#preprocessor-rule-enabled'
@@ -621,4 +619,4 @@
         'name': 'invalid.illegal.placeholder.c'
       }
     ]
-'scopeName': 'source.c'
+'scopeName': 'source.ino'
