@@ -21,7 +21,7 @@
     'name': 'keyword.control.c'
   }
   {
-    'match': '\\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\\b'
+    'match': '\\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void|OUTPUT|INPUT|INPUT_PULLUP|HIGH|LOW|DEC|BIN|HEX|OCT|PI|HALF_PI|TWO_PI|LSBFIRST|MSBFIRST|CHANGE|FALLING|RISING|DEFAULT|EXTERNAL|INTERNAL|INTERNAL1V1|INTERNAL2V56|boolean|byte)\\b'
     'name': 'storage.type.c'
   }
   {
